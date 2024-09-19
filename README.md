@@ -1,3 +1,4 @@
+Linux版
 一键安装syncthing
 #获取适合您的操作系统的最新版本的 Syncthing
 curl -s https://api.github.com/repos/syncthing/syncthing/releases/latest | grep browser_download_url | grep linux-amd64 | cut -d '"' -f 4 | wget -qi -
